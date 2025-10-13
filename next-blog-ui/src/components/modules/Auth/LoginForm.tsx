@@ -15,8 +15,6 @@ import {
 } from '@/components/ui/form';
 import Image from 'next/image';
 import { signIn } from 'next-auth/react';
-import { login } from '@/actions/auth';
-import { toast } from 'sonner';
 
 // type LoginFormValues = {
 //   email: string;
